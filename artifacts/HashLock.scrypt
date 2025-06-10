@@ -1,0 +1,7 @@
+
+contract HashLock {
+  const bytes hash;
+  public function unlock(bytes secret) {
+    require(sha256(secret) == this.hash);
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "commonjs",
+  "name": "q3_part",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generateKey.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bsv/sdk": "^1.4.20",
+    "bip39": "^3.1.0",
+    "bs58check": "^4.0.0",
+    "crypto": "^1.0.1",
+    "scrypt-ts": "^1.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
