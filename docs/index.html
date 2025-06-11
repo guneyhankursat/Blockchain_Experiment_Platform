@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secret Guessing Game</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script type="module" crossorigin src="/assets/index-6e30b0d2.js"></script>
+  <link rel="stylesheet" href="/assets/index-dc087d15.css">
+</head>
+<body>
+  <!-- Theme Toggle -->
+  <div class="theme-toggle">
+    <label class="switch">
+      <input type="checkbox" id="themeToggle">
+      <span class="slider round"></span>
+    </label>
+    <span class="theme-label">Dark Mode</span>
+  </div>
+
+  <!-- Main Game Section -->
+  <div class="container">
+    <h1>✨ Secret Guessing Game ✨</h1>
+    <p class="subtitle">Enter the correct secret to unlock the smart contract</p>
+
+    <!-- Guess Form -->
+    <form id="guess-form">
+      <input type="text" id="secret-input" placeholder="Enter your secret..." required />
+      <button type="submit">Try Unlock</button>
+    </form>
+
+    <!-- Status Display -->
+    <div id="status"></div>
+  </div>
+
+  
+</body>
+</html>
