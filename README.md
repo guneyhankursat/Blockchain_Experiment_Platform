@@ -4,6 +4,12 @@ A full-stack DApp for simulating behavioural economics games (like the Ultimatum
 
 ---
 
+## 🔗 Live Demo
+
+Check out the deployed app here:  
+👉 [Secret Guessing Game](https://guneyhankursat.github.io/Blockchain_Experiment_Platform/)
+
+
 ## 💡 Ultimatum Game Logic
 
 > Player A proposes a split of a fixed pot (e.g., 1000 satoshis).  
