@@ -48,5 +48,40 @@ This logic is enforced directly by an on-chain smart contract written in sCrypt 
 
 ### 🧩 1. Install dependencies
 
-```bash
 npm install
+
+###  🔐 2. Generate a testnet key
+
+npx ts-node generateTestnetKey.ts
+
+###  Example output:
+
+✅ Testnet Key Generated:  
+🔑 Private Key (WIF): cRFyEzUNkf5rggAD5rUziPRXERd5ZLinRhovWvbNpqF8j87mh98q  
+📬 Testnet Address: mnju7krB3QDYpaSntXfsxCPUonugw2zqkC  
+
+###  📦 3. Deploy the smart contract
+
+npx ts-node deploy.ts
+
+### Example output:
+
+Contract successfully deployed on MAINNET! TX ID: <txid>
+
+### 🧮 4. Redeem (simulate offer acceptance/rejection)
+
+npx ts-node redeem.ts
+
+### 🌐 Frontend Interface (secret-game/)
+
+### 1. Start development server
+
+cd secret-game  
+npm install  
+npm run dev  
+
+### Example output:  
+
+Then open http://localhost:5173 in your browser.
+
+
